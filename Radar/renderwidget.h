@@ -13,8 +13,7 @@ protected:
     void paintEvent(QPaintEvent *e) override;
 protected:
     QImage m_img;
-    float m_sin;
-    float m_cos;
+    float m_angle;
 };
 
 #endif // RENDERWIDGET_H

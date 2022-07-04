@@ -30,7 +30,7 @@ MainWindow::MainWindow(QWidget *parent)
     connect(button, &QPushButton::released, this, &MainWindow::clickChange);
 
     this->setCentralWidget(w);
-    this->setFixedSize(QSize(500, 600));
+    this->setBaseSize(QSize(200, 500));
 
 }
 
